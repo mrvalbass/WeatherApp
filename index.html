@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Weather App</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
@@ -10,7 +13,7 @@
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" class="searchbar">
+            <input type="text" class="searchbar" placeholder="Search">
             <button><svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
                     <path d="M14.5 3l-1 3-1-3c-.184-.553.114-1.149.666-1.333.553-.185 1.15.114 1.334.666.075.226.07.458 0 .667z
                     M19.864 6.05l-2.829 1.415 1.415-2.829c.261-.521.894-.731 1.414-.472.521.261.731.894.472 1.415-.107.212-.274.372-.472.471z
@@ -26,14 +29,13 @@
             </svg></button>
         </div>
         <div class="weather">
-            <h1 class="city">Weather in Opio</h1>
-            <div class="temp">15°C</div>
+            <h2 class="city">Weather in Opio</h2>
+            <h1 class="temp">15°C</h1>
             <img src="" alt="" class="icon">
             <div class="description">Cloudy</div>
             <div class="humidity">Humidity : 60%</div>
             <div class="wind">Wind Speed: 6.2km/h</div>
         </div>
-            <h1></h1>
     </div>
 </body>
 </html>
